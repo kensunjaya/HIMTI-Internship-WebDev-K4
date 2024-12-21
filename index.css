@@ -1,0 +1,67 @@
+.about-section {
+  background-color: #0b2742; 
+  color: #ffffff; 
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: right;
+}
+
+.about-section .logohimti img {
+  width: 100px; 
+  height: auto; 
+}
+
+.about-section .text {
+  max-width: 700px;
+  height: auto;
+  padding: 5px;
+  border-radius: 20px;
+
+}
+
+.about-section p {
+  font-size: 17px;
+  line-height: 2;
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+}
+
+nav  {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.navbutton {
+  color: #0b2742;
+  font-weight: 500;
+  margin: 10px 0px 10px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+}

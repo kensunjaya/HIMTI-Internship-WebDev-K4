@@ -65,3 +65,10 @@ nav  {
   border-radius: 10px;
   text-decoration: none;
 }
+
+.himti-competition-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -12,18 +12,108 @@
   </head>
   <body>
     <nav>
-      <img src="himtilogostandalone.png" alt="HIMTI Logo" width="40px" />
-      <a href="#home" class="navbutton">Home</a>
-      <a href="#events" class="navbutton">Events</a>
-      <a href="#about" class="navbutton">About</a>
-      <a href="#contact" class="navbutton">Contact</a>
+      <img src="assets/himtilogostandalone.png" alt="HIMTI Logo" width="40px" />
+      <a href="#himti-competition" class="navbutton">Home</a>
+      <a href="#competitions-section" class="navbutton">Events</a>
+      <a href="#about-section" class="navbutton">About</a>
+      <a href="#contact-us-section" class="navbutton">Contact</a>
     </nav>
-    <section class="about-section">
+    <section id="himti-competition">
+      <div class="himti-competition-container">
+        <img
+          src="assets/polygon2.png"
+          alt=""
+          style="
+            width: 20%;
+            position: absolute;
+            left: 45%;
+            top: -16%;
+            z-index: 2;
+          "
+        />
+        <img
+          src="assets/polygon1.png"
+          alt=""
+          style="
+            width: 35%;
+            position: absolute;
+            right: -10%;
+            top: 62%;
+            z-index: 2;
+          "
+        />
+        <img
+          src="assets/polygon3.png"
+          alt=""
+          style="
+            width: 20%;
+            position: absolute;
+            left: -12%;
+            top: 75%;
+            z-index: 2;
+          "
+        />
+        <div class="himti-comp-text">
+          <div style="font-weight: 600; font-size: 100px">HIMTI</div>
+          <div style="font-size: 60px">COMPETITION</div>
+          <div style="font-size: 30px; margin-top: 20px">
+            Lorem, ipsum dolor sit amet,
+          </div>
+          <div style="font-size: 30px">consectetur adipisicing elit.</div>
+        </div>
+        <img
+          src="assets/Saly-10.png"
+          alt=""
+          width="40%"
+          style="z-index: -100"
+        />
+      </div>
+    </section>
+    <section id="competitions-section">
+      <h2>COMPETITIONS</h2>
+      <div class="competitions-container">
+        <div class="competitions-card">
+          <img src="assets/uiux.png" alt="UI/UX Design" width="300px" />
+          <div style="font-size: 30px; font-weight: 500; margin-top: 20px">
+            UI/UX Design
+          </div>
+          <p>
+            Calling all creative minds! Unleash your design prowess and join our
+            UI/UX Design Competition.
+          </p>
+          <button>Learn More</button>
+        </div>
+        <div class="competitions-card">
+          <img
+            src="assets/competitiveprogramming.png"
+            alt="Competitive Programming"
+            width="300px"
+          />
+          <div style="font-size: 30px; font-weight: 500; margin-top: 20px">
+            Competitive Programming
+          </div>
+          <p>Showcase your coding skills, solve challenging problems!</p>
+          <button>Learn More</button>
+        </div>
+        <div class="competitions-card">
+          <img src="assets/appcreation.png" alt="App Creation" width="300px" />
+          <div style="font-size: 30px; font-weight: 500; margin-top: 20px">
+            App Creation
+          </div>
+          <p>
+            Design groundbreaking apps to solve real-world problems in our App
+            Creation Competition.
+          </p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+    <section id="about-section">
       <div class="container">
         <h2>ABOUT HIMTI COMPETITION</h2>
         <div class="content">
           <div class="logo">
-            <img src="logohimti.png" alt="HIMTI Logo" width="200px" />
+            <img src="assets/logohimti.png" alt="HIMTI Logo" width="250px" />
           </div>
           <div class="text">
             <p>
@@ -44,14 +134,53 @@
         </div>
       </div>
     </section>
-    <section class="himti-competition">
-      <div class="himti-competition-container">
-        <div class="himti-comp-text">
-          <div style="font-weight: 600; font-size: 100px">HIMTI</div>
-          <div style="font-size: 50px">COMPETITION</div>
-        </div>
-        <img src="Saly-10.png" alt="" width="30%" />
-      </div>
+    <section id="contact-us-section">
+      <h2>CONTACT US</h2>
+      <p>
+        We'd love to hear from you! Whether you have questions, feedback, or
+        need assistance, please feel free to reach out. Enter your email below,
+        and our team will get back to you as soon as possible.
+      </p>
+      <form action="" style="width: 100%">
+        <input type="text" placeholder="Name" />
+        <br />
+        <input type="email" placeholder="Email" />
+        <br />
+        <textarea name="message" id="" placeholder="Message..."></textarea>
+        <button>Submit</button>
+      </form>
     </section>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="logos">
+          <img
+            src="assets/logoCOMBINED.png"
+            alt="himti binus logo"
+            class="logo"
+          />
+        </div>
+
+        <div class="socials">
+          <a href="https://instagram.com/himti_binus" target="_blank">
+            <img src="assets/IG.png" alt="instagram logo" class="social-icon" />
+          </a>
+          <a href="https://youtube.com/@HIMTIBINUS" target="_blank">
+            <img
+              src="assets/YouTube.png"
+              alt="youtube logo"
+              class="social-icon"
+            />
+          </a>
+          <a href="https://tiktok.com/@himtibinus" target="_blank">
+            <img
+              src="assets/TikTok.png"
+              alt="tiktok logo"
+              class="social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <p>&copy; Copyright 2024 HIMTI BINUS University.</p>
+    </footer>
   </body>
 </html>
